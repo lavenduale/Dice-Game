@@ -88,6 +88,7 @@ body {
     margin: 0 auto;
     padding: 12px;
     text-align: center;
+    border-radius: 200px;
 }
 
 .player-current-label {
@@ -114,7 +115,7 @@ button {
     text-transform: uppercase;
     cursor: pointer;
     font-weight: 300;
-    transition: background-color 0.3s, color 0.3s; 
+    transition: background-color 0.8s, color 0.3s; 
 }
 
 button:hover {
@@ -150,6 +151,10 @@ i {
 
 .btn-hold {
     top: 467px;
+}
+
+.btn-exp {
+    top: 330px;
 }
 
 .dice {
